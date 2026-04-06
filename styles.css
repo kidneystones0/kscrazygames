@@ -1,0 +1,35 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color:rgb(0, 199, 10); 
+}
+
+
+.blogtext {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+.charslot {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px;
+
+    .shortdesc {
+        text-align: right;
+    }
+}
+
+.charslot > article {
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid black;
+    background:rgb(228, 228, 228);
+}
+
+.charslot > p {
+    text-align: center;
+}
